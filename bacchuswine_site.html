@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bacchus Wine & Gin & Aperol</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bordo: #4A1C1C;
+      --preto: #1B1B1B;
+      --dourado: #C8A25F;
+      --offwhite: #F5F3F0;
+    }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: var(--offwhite);
+      color: var(--preto);
+    }
+    header {
+      background: var(--bordo);
+      color: var(--offwhite);
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    header a {
+      background: var(--dourado);
+      color: var(--preto);
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--bordo);
+      margin-bottom: 20px;
+    }
+    .cardapio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    .item h3 {
+      margin-top: 0;
+      color: var(--dourado);
+    }
+    footer {
+      background: var(--preto);
+      color: var(--offwhite);
+      text-align: center;
+      padding: 30px 20px;
+    }
+    footer a {
+      color: var(--dourado);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bacchus Wine & Gin & Aperol</h1>
+    <p>Drinks e vinhos exclusivos, com sofisticação em cada detalhe.</p>
+    <a href="#cardapio">Conheça nosso cardápio</a>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Inspirado no deus do vinho, o Bacchus Wine nasceu para transformar eventos em experiências únicas. Trabalhamos com vinhos selecionados e drinks autorais preparados com ingredientes de alta qualidade.</p>
+  </section>
+
+  <section id="cardapio">
+    <h2>Cardápio</h2>
+    <div class="cardapio">
+      <div class="item">
+        <h3>Vinhos</h3>
+        <p>Taças colecionáveis e rótulos que mudam toda semana.</p>
+      </div>
+      <div class="item">
+        <h3>Aperol Spritz</h3>
+        <p>Nosso clássico com receita exclusiva e espuma artesanal de gengibre.</p>
+      </div>
+      <div class="item">
+        <h3>Gin Siciliano</h3>
+        <p>Refrescante, com notas cítricas e finalização com alecrim.</p>
+      </div>
+      <div class="item">
+        <h3>Gin Frutas Vermelhas</h3>
+        <p>Equilíbrio perfeito entre frescor e sofisticação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="eventos">
+    <h2>Eventos</h2>
+    <p>Leve o Bacchus Wine para o seu evento e encante seus convidados com uma experiência premium em vinhos e drinks autorais.</p>
+  </section>
+
+  <section id="franquia">
+    <h2>Franquia</h2>
+    <p>Em breve: um modelo exclusivo de franquias Bacchus Wine & Gin & Aperol para empreendedores visionários.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/seunumerowhatsapp">(21) 99999-9999</a></p>
+    <p>📧 E-mail: contato@bacchuswinegin.com.br</p>
+    <p>📸 Instagram: <a href="https://instagram.com/bacchuswine">@bacchuswine</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Bacchus Wine & Gin & Aperol – Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
